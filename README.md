@@ -58,7 +58,7 @@ ZDK_Unity40_1.1_trial.unitypackage
 そうすると、パッケージがインポートできます
 
 注: もし、Kinect for Windows SDKが必要になったら、
-http://www.microsoft.com/en-us/download/details.aspx?id=36996
+<http://www.microsoft.com/en-us/download/details.aspx?id=36996>
 からインストールしてください。
 
 あとは、テキトーにサンプルシーンとかを動かしてみるといいんじゃないですかね。
