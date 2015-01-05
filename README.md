@@ -15,18 +15,18 @@ Kinectを使って、Unityの3D空間上にお絵描きをするアプリ的な�
 が実装されています。
 
 # [必要なもの]
-1. Kinect
+1. Kinect  
 これがないとお話になりません。
 YNGW先生からお借りできると思われます。
  
-2. PC
+2. PC  
 Unityが入ってるやつです。
  
-3. ディスプレイ
+3. ディスプレイ  
 見た目的に派手な感じになりそうなので、
 大きければ大きいほどいいです。
  
-4. コントローラ
+4. コントローラ  
 コントローラで画面を操作できるようにするとよいかもしれません。
  
 # [開発環境]
@@ -34,7 +34,7 @@ Unity + Zigfu
 を使います。
 
 # [Zigfuパッケージのインストール]
-1. Zigfuのインストール
+1. Zigfuのインストール  
 まず、Zigfuを使うために必要なドライバ類をインストールします。
 <http://zigfu.com/en/>
 にアクセスしてください。
@@ -43,23 +43,23 @@ Unity + Zigfu
 "Download for Windows"
 をクリックします。
 ダウンロードされたexeファイルを実行すると、インストールが開始します。
- 
-注: もし、Kinect for Windows SDKが必要になったら、
-http://www.microsoft.com/en-us/download/details.aspx?id=36996
-からインストールしてください。
- 
-2. Unity用のパッケージインストール
+
+2. Unity用のパッケージインストール  
 次に、UnityでZigfuを動かすためのパッケージをインストールします。
 先ほどのダウンロードページの左側に"ZDK"っていうのがあると思うので、そこをクリックします。
 そして、移動したページの左下に"Unity3D"っていうのがあると思うので、
 そこの下にある"Download trial"ってところをクリックします。
 そうすると、Unity用のパッケージ（.unitypackageファイル）がインストールできます。
 
-3. Zigfuパッケージのインポート
+3. Zigfuパッケージのインポート  
  Unityを起動し、Projectビュー上に
 ZDK_Unity40_1.1_trial.unitypackage
 をドラッグ&ドロップします。
 そうすると、パッケージがインポートできます
+
+注: もし、Kinect for Windows SDKが必要になったら、
+http://www.microsoft.com/en-us/download/details.aspx?id=36996
+からインストールしてください。
 
 あとは、テキトーにサンプルシーンとかを動かしてみるといいんじゃないですかね。
 
